@@ -616,7 +616,7 @@ span {
 
 .main3 {
     padding: 2rem 0;
-    background-image: url(img/BACKPORT.png);
+    background-image: url(./img/BACKPORT.png);
     width: 100%;
     background-size: cover 50%;
     background-repeat: no-repeat;
