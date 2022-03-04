@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+
+
+
+
+/*######### ANIMACOES #########*/
+@keyframes down {
+    0% {
+        transform: translateY(-50px);
+        opacity: 1%;
+    }
+    50%{
+        transform: translateY(-0px);
+        opacity: 90%;
+    }
+    
+    
+}
+
+/*######### REPONSIVO #########*/
+
+@media screen and (max-width:960px) {
+   /* NAVBAR */
+    .navbar_container {
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        z-index: 1;
+        width: 100%;
+        max-width: 1300px;
+        padding: 10px;
+        
+    }
+
+    .navbar_menu {
+        display: grid;
+        grid-template-columns: auto;
+        margin: 0;
+        position: absolute;
+        top: -1000px;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: -1;
+        width: 98%;
+        
+    }
+
+    .navbar_menu.active {
+        background: #070707;
+        top: 100%;
+        opacity: 1;
+        transition: all o.5s ease;
+        z-index: 99;
+        height: 60vh;
+        font-size: 1.6rem;
+        width: 98%;
+         
+    }
+
+    #navbar_logo {
+        padding-left: 25px;
+        
+    }
+
+    .navbar_toggle .bar {
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        transition: all 0.3s ease-in-out;
+        background: #7A2FF5;
+
+    }
+
+    .navbar_item {
+        width: 100%;
+    }
+
+    .navbar_links {
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        display: table;
+        color: white;
+    }
+    .navbar_links2 {
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        display: table;
+        color: white;
+    }
+    .navbar_links3 {
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        display: table;
+        color: white;
+    }
+
+    .navbar_btn {
+        padding-bottom: 2rem;
+
+    }
+
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 80px;
+        margin: 0;
+    }
+
+    /* TELA SOBRE */
+
+
+    .main_content2 p {
+        color: #ffffff;
+        font-size: 18px;
+        margin: 20px;
+    }
+    
+    
+    
+    .main_btn1 {
+        font-size: 1.4rem;
+    
+    }
+    
+    
+    /* TELA CONTATO */
+   form {
+       width: 70%;
+       height: 400px;
+   }
+
+   form [type="submit"] {
+       margin-top: 80px;
+   }
+
+   textarea {
+       height: 100px;
+       width: 100%;
+   }
+
+    #mobile-menu {
+        position: absolute;
+        top: 20%;
+        right: 5%;
+        transform: translate(5%, 20%);
+    }
+
+    .navbar_toggle .bar {
+        display: block;
+        cursor: pointer;
+    }
+
+    #mobile-menu.is-active .bar:nth-child(2) {
+
+        opacity: 0;
+    }
+    #mobile-menu.is-active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    #mobile-menu.is-active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    
+}
+
+
+@media screen and (max-width:480px) {
+    
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Ubuntu', sans-serif;
+        scroll-behavior: smooth;
+        text-decoration: none;
+        
+        
+    }
+
+    .navbar_menu.active {
+        background: #000000;
+        top: 100%;
+        opacity: 1;
+        transition: all o.5s ease;
+        z-index: 99;
+        height: 60vh;
+        font-size: 1.6rem;
+    }
+
+    #navbar_logo {
+        padding-left: 25px;
+    }
+
+    .navbar_toggle .bar {
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        transition: all 0.3s ease-in-out;
+        background: #7A2FF5;
+
+    }
+
+    .navbar_item {
+        width: 100%;
+    }
+
+    .navbar_links {
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        display: table;
+
+    }
+
+    .navbar_btn {
+        padding-bottom: 2rem;
+
+    }
+
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 80px;
+        margin: 0;
+    }
+
+    #mobile-menu {
+        position: absolute;
+        top: 20%;
+        right: 5%;
+        transform: translate(5%, 20%);
+    }
+
+    .navbar_toggle .bar {
+        display: block;
+        cursor: pointer;
+    }
+
+    #mobile-menu.is-active .bar:nth-child(2) {
+
+        opacity: 0;
+    }
+    #mobile-menu.is-active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    #mobile-menu.is-active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    
+    .main_container2 {
+    
+        display: grid;
+        grid-template-columns: 1fr ;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        height: 90%;
+        z-index: 1;
+        
+        max-width: 1300px;
+        padding: 0 70px;
+        
+      }
+
+
+
+    #img1 {
+        width: 210px;
+        height: 410px;
+    
+    }
+
+
+
+.main_content {
+    width: 100%;
+    
+   
+}
+
+
+
+
+
+.footer_links {
+    margin: 0%;
+    
+    width: 80%;
+}
+
+.main_img--container {
+    margin-right: 300px;
+}
+
+.main_img--container3 {
+    
+    margin:  1rem;
+    
+}
+
+form{
+    width: 90%;
+}
+
+}
+
+
+@media screen and (max-width: 1100px) {
+    
+    
+    .main_container {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+        height: 120%;
+        
+
+    }
+    
+
+    .main_img--card {
+        margin-left: 300px;
+        opacity: 100%;
+        margin-top: 100px;
+        
+    }
+
+    #img1 {
+        width: 25rem;
+        height: 25rem;
+        
+    }
+
+    .main_content {
+        text-align: center;
+        margin-bottom: 5rem;
+        top: 1000px;
+        
+        
+        
+    }
+
+    .main_content h1 {
+        font-size: 3.5rem;
+        margin-bottom: 1rem;
+        
+    }
+
+    .main_content h2 {
+        font-size: 3rem;
+    }
+
+    .main_content p {
+        margin-top: 1rem;
+        font-size: 1.5rem;
+        
+    }
+
+    
+
+    
+}
+
+@media screen and (max-width: 1300px) {
+    .services_wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    form {
+        width: 900px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .main_container2 p {
+        font-size: 15px;
+
+    }
+
+    .main_content2 {
+        margin-bottom: 200px;
+    }
+
+    .main_container2 {
+       
+        grid-template-columns: 1fr ;
+         
+    }
+
+    .eu-img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .services_wrapper {
+        grid-template-columns: 1fr;
+        
+    }
+
+     
+}
+
+
+
+/* TELA RODAPE */
+@media screen and (max-width: 820px) {
+
+ 
+    .services_card {
+        margin: 5px;
+        height: 400px;
+        width: 398px;
+    }
+
+    #footer_logo {
+        margin-bottom: 2rem;
+    }
+
+    
+}
+

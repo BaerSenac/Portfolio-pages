@@ -1,0 +1,777 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    
+    
+}
+
+
+/*######### ANIMACOES #########*/
+@keyframes down {
+    0% {
+        transform: translateY(-50px);
+        opacity: 1%;
+    }
+    50%{
+        transform: translateY(-0px);
+        opacity: 90%;
+    }
+    
+    
+}
+
+/*######### NAVBAR #########*/
+
+.navbar {
+    background: #F2F1F3;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    transition: ease 0.8s;
+}
+
+.navbar_container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+span {
+    background: linear-gradient(96.71deg, #6C60F5 10.53%, rgba(173, 0, 255, 0.35) 122.79%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.navbar_logo {
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.navbar_menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar_item {
+    height: 80px;
+}
+
+.navbar_links {
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    text-decoration: none;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+.navbar_links2 { 
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    text-decoration: none;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+.navbar_links3 {
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    text-decoration: none;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+.navbar_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 100%;
+    
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #833ab4;
+    
+    background: linear-gradient(96.71deg, #6C60F5 10.53%, rgba(173, 0, 255, 0.35) 122.79%);
+    color: white;
+    transition: all 0.3s ease;
+}
+
+
+
+/*######### HOVER #########*/
+/* NAVBAR */
+
+.button:hover {
+    transform: scale(1.074);
+    transition: all 0.5s;
+    background-color: #6C60F5;
+    
+}
+.navbar_links:hover {
+    color: #9518fc;
+    transition: all 0.3s ease;
+}
+.navbar_links2:hover {
+    color: #9518fc;
+    transition: all 0.3s ease;
+}
+.navbar_links3:hover {
+    color: #9518fc;
+    transition: all 0.3s ease;
+}
+
+/* TELA INICIO */
+.main_btn:hover {
+    background-color: #5C19C9;
+    transform: scale(1.074);
+}
+
+/* TELA SOBRE */
+.main_btn1:hover {
+    color: white;
+    background: #380688;
+    transition: all 0.4s ease-out;
+    transform: scale(1.074)
+}
+.main_btn1 a:hover {
+    color: white;
+    
+    transition: all 0.4s ease-out;
+}
+
+.main_btn2:hover {
+    color: white;
+    background: #380688;
+    transition: all 0.4s ease-out;
+}
+
+.main_btn2 a:hover {
+    color: white;
+    background: #380688;
+    transition: all 0.4s ease-out;
+    
+}
+
+.main_btn2:hover {
+    
+     
+     transform: scale(1.074)
+}
+
+/* TELA PROJETOS */
+.title-cards:hover{
+    background: linear-gradient(96.71deg, #888888 10.53%, rgb(97, 96, 97) 122.79%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.services_card:hover {
+    transform: scale(1.075);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+    box-shadow: -15px 25px 0px rgb(78, 5, 196);
+    
+    
+}
+
+.services_card:nth-child(2):hover {
+    box-shadow: -15px 25px 0px 0px  rgb(78, 5, 196);
+}
+.services_card:nth-child(3):hover {
+    box-shadow: -15px 25px 0px rgb(78, 5, 196);
+}
+
+
+
+
+
+/*######### TELA INICIO #########*/
+.main {
+    background-color: rgb(255, 255, 255);
+    padding: 30vh 0;
+    font-family: 'Ubuntu';
+    transition: ease 0.8s;
+}
+
+.main_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height:100%;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+.main_content {
+    
+    width: 100%;
+    margin-bottom: 2rem;
+    animation: down 2s;
+}
+
+.main_img--card {
+    margin: 10px;
+    height: 100px;
+    width: 400px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    animation: down 2s;
+    animation-timing-function: ease;
+    
+    
+}
+
+.submain {
+    color: #2c2a30;
+    font-size: 20px;
+    font-weight: normal;
+    animation: down 2s;
+    
+}
+
+.main_content h1 {
+    font-size: 40px;
+    
+    background: linear-gradient(96.71deg, #6C60F5 10.53%, rgba(173, 0, 255, 0.35) 122.79%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-weight: normal;
+    margin-bottom: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    animation: down 1s;
+    
+}
+
+.main_content .baer {
+    font-size: 4rem;
+    color: black;
+    font-weight: normal;
+    animation: down 3s;
+}
+
+.main_btn {
+    font-size: 1.7rem;
+    background: #833ab4;
+    background: linear-gradient(96.71deg, #6C60F5 10.53%, rgba(173, 0, 255, 0.35) 122.79%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+    position: fixed;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin-top: 3rem;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+    font-family: 'Ubuntu', sans-serif;
+    
+    width: 180px;
+    height: 50px;
+    animation: down 3.5s;
+    
+    
+    
+}
+
+.main_btn a {
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-decoration: none;
+    font-size: 29px;
+    font-weight: 100;
+}
+
+.main_img--container {
+    text-align: center;
+    
+}
+
+#img1 {
+    width: 35rem;
+    height: 35rem;
+    margin-bottom: 30px;
+    
+    
+}
+
+
+
+/*######### TELA SOBRE #########*/
+
+.main2 {
+    background-color: #5C19C9;
+    padding: 21vh 3vh;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.main_container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 90%;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 70px;
+    
+}
+
+.main_content2 {
+    color: rgb(253, 253, 253);
+    width: 100%;
+    margin-bottom: 90px;
+    
+    
+}
+
+ .sobre-color{
+    font-size: 2.5rem;
+    height: 100px;
+    color: rgb(255, 255, 255);
+    animation: none;
+    font-weight: 100;
+    
+}
+
+
+
+.main_content2 p {
+    color: #ffffff;
+}
+
+
+
+.main_btn2 {
+    font-size: 1.6rem;
+    background: linear-gradient(79.18deg, #7A2FF5 -22.61%, #DECBFD 16.98%, #FFFFFF 78.89%, #7420FE 152.11%);
+
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+    margin-top: 2rem;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+}
+
+.main_btn1 {
+    font-size: 1.7rem;
+    
+    background: linear-gradient(79.18deg, #7A2FF5 -22.61%, #DECBFD 16.98%, #FFFFFF 78.89%, #7420FE 152.11%);
+    
+    color: white;
+    position: fixed;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin-top: 5rem;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 5px;
+    width: 190px;
+    height: 60px;
+    animation: down 3.5s;
+}
+
+.main_btn2 a {
+    position: relative;
+    z-index: 2;
+    color: #7A2FF5;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.main_btn1 a {
+    position: relative;
+    z-index: 2;
+    color: #7A2FF5;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.main_img--container2 {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.main_img--card2 {
+    margin: 10px;
+    height: 400px;
+    width: 400px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    
+    
+}
+
+
+
+
+
+/*######### TELA PROJETOS #########*/
+.services {
+    
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    height: 100%; 
+    padding: 15rem;
+    transition: ease 0.8s;
+    
+}
+
+.services .title-projetos {
+    background: linear-gradient(96.71deg, #6C60F5 10.53%, rgba(173, 0, 255, 0.35) 122.79%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+
+}
+
+.services_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr;
+    
+    
+}
+
+.img-project {
+    width: 390px;
+    border-radius: 10px;
+    
+    
+    
+}
+
+#steak {
+    margin-bottom: 40px;
+}
+
+.content-p {
+    text-align: center;
+    margin-top: 24px;
+    font-size: 15px;
+    padding: 9px;
+    color: #5c5958;
+    font-family: 'Ubuntu';
+}
+
+.title-cards {
+    text-align: center;
+    color: #7420FE;
+    margin-top: 10px;
+    background: linear-gradient(96.71deg, #6C60F5 10.53%, rgba(173, 0, 255, 0.35) 122.79%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+
+}
+
+.card_btn {
+        font-size: 1.7rem;
+        background: #833ab4;
+        background: linear-gradient(96.71deg, #6C60F5 10.53%, rgba(173, 0, 255, 0.35) 122.79%);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        color: white;
+        
+        border: none;
+        border-radius: 10px;
+        color: white;
+        margin-top: 2rem;
+        cursor: pointer;
+        position: relative;
+        transition: all 0.35s;
+        outline: none;
+        font-family: 'Ubuntu', sans-serif;
+        margin: 25px;
+        width: 340px;
+        height: 50px;
+        
+        
+        
+}
+
+.services_card {
+    margin: 25px;
+    height: 405px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background: #ffffff;
+    border: 1px solid #DCDCDC;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    transition: 0.3s ease-in;
+    
+}
+
+.services_card:nth-child(2) {
+    background: #FFFFFF;
+    border: 1px solid #DCDCDC;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    
+
+}
+
+.services_card:nth-child(3) {
+    background: #FFFFFF;
+    border: 1px solid #DCDCDC;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px; 
+
+
+}
+
+.services_btn {
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+
+   
+/* TELA CONTATO */
+
+.main3 {
+    padding: 2rem 0;
+    background-image:  url(Img/BACKPORT.png);
+    width: 100%;
+    background-size: cover 50%;
+    background-repeat: no-repeat;
+    
+    
+    
+    
+}
+
+.main_img--container3 {
+    
+    
+    height: 400px;
+    margin:  0 10rem;
+    
+}
+
+.title-contato {
+    font-size: 1.2rem;
+    color: #DCDCDC;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 200px;
+    text-align: center;
+    font-weight: 100;
+    
+}
+
+.area-login {
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 450px;
+    background: #ffffff;
+    border: 2px solid #DCDCDC;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    border-radius: 10px; 
+}
+
+input{
+    margin-top: 20px;
+    background-color: #f0f0f0;
+    color: #5C19C9;
+    border: none;
+    height: 50px;
+    border-radius: 7px;
+    padding-left: 10px;
+    background: #ffffff;
+    border: 1px solid #DCDCDC;
+    box-sizing: border-box;
+    
+    
+}
+textarea {
+    margin-top: 20px;
+    background-color: #f0f0f0;
+    color: #5C19C9;
+    border: none;
+    height: 50px;
+    border-radius: 7px;
+    padding-left: 10px;
+    background: #ffffff;
+    border: 1px solid #DCDCDC;
+    box-sizing: border-box;
+    height: 100px;
+    width: 100%;
+}
+
+textarea::placeholder{
+    color: #5C19C9;
+    font-size: 14px;
+    
+}
+
+
+input::placeholder{
+    color: #5C19C9;
+    font-size: 14px;
+    
+}
+
+form [type="submit"]{
+    display: block;
+    background: linear-gradient(96.71deg, #6C60F5 10.53%, rgba(173, 0, 255, 0.35) 122.79%);
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 70px;
+    width: 40%px;
+    
+    
+    
+    
+}
+
+form [type="submit"]:hover{
+    background: #5C19C9;
+    color: #ffffff;
+    transition:  ease 0.1s ;
+    
+}
+
+
+/* RODAPE */
+.footer_container {
+    background-color: #2c2a30;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+
+}
+
+.footer_links {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    margin-right: 150px;
+   
+}
+
+.footer_link--wrapper {
+    display: flex;
+}
+
+.social_media--wrap {
+    margin-top: 10px;
+}
+
+.web_site_rights {
+    color: rgb(255, 255, 255);
+}
+
+#navbar_logo_cabecalho {
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    
+}

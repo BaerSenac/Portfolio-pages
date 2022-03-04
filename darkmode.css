@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    
+    
+}
+
+/*######### ANIMACOES #########*/
+@keyframes down {
+    0% {
+        transform: translateY(-50px);
+        opacity: 1%;
+    }
+    50%{
+        transform: translateY(-0px);
+        opacity: 90%;
+    }
+    
+    
+}
+
+/* NAVBAR DARK MODE */
+.navbar.active {
+    background: #000000;
+}
+
+.navbar_logo.active {
+    color: white;
+    font-weight: normal;
+    transition: ease 0.8s;
+}
+
+.navbar_menu.active{
+    color: white;
+    transition: ease 0.8s;
+}
+
+.navbar_links.active {
+    color: white;
+}
+.navbar_links2.active {
+    color: white;
+}
+.navbar_links3.active {
+    color: white;
+}
+
+.btnmode {
+    width: 60px;
+    height: 30px;
+    border: 3px solid #6C60F5;
+
+    border-radius: 60px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.btnmode::before{
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background: #1b1a1b;
+    border-radius: 50%;
+    top: 50%;
+    left: 3px;
+    transform: translateY(-50%);
+    transition: ease 0.8s;
+}
+
+.btnmode.active::before{
+    left: 32px;
+    background: #ffffff;
+}
+
+/* TELA INICIO DARK MODE */
+.baer.active {
+    color: white;
+}
+
+.submain.active {
+    color: white;
+}
+
+.main.active {
+    background: #1b1a1b;
+    transition: ease 0.8s;
+}
+
+/* TELA SOBRE */
+/* TELA PROJETOS */
+
+.services.active {
+    background-color: #1b1a1b;
+}
+
+.services.active {
+    background-color: #1b1a1b;
+}
