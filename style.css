@@ -570,7 +570,7 @@ span {
 .services_card {
     margin: 25px;
     height: 405px;
-    width: 300px;
+    width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
