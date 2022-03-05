@@ -170,18 +170,11 @@
 }
 
 
+
 @media screen and (max-width:480px) {
+
     
-    * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-        font-family: 'Ubuntu', sans-serif;
-        scroll-behavior: smooth;
-        text-decoration: none;
-        
-        
-    }
+
 
     .navbar_menu.active {
         background: #000000;
@@ -193,123 +186,53 @@
         font-size: 1.6rem;
     }
 
-    #navbar_logo {
-        padding-left: 25px;
-    }
-
-    .navbar_toggle .bar {
-        width: 25px;
-        height: 3px;
-        margin: 5px auto;
-        transition: all 0.3s ease-in-out;
-        background: #7A2FF5;
-
-    }
-
-    .navbar_item {
-        width: 100%;
-    }
-
-    .navbar_links {
-        text-align: center;
-        padding: 2rem;
-        width: 100%;
-        display: table;
-
-    }
-
-    .navbar_btn {
-        padding-bottom: 2rem;
-
-    }
-
-    .button {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 80%;
-        height: 80px;
-        margin: 0;
-    }
-
-    #mobile-menu {
-        position: absolute;
-        top: 20%;
-        right: 5%;
-        transform: translate(5%, 20%);
-    }
-
-    .navbar_toggle .bar {
-        display: block;
-        cursor: pointer;
-    }
-
-    #mobile-menu.is-active .bar:nth-child(2) {
-
-        opacity: 0;
-    }
-    #mobile-menu.is-active .bar:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
-    }
-    #mobile-menu.is-active .bar:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
+    .main_content {
+        margin: auto;
     }
 
     
-    .main_container2 {
+    .main_content .baer {
+        font-size: 45px;
+      
+    }
+
+    .sobre-color {
+        margin-left: 150px;
+    }
+
+    .main_btn1 {
+        margin-left: 40px;
+        width: 150px;
+    }
+
+    .footer_links {
+        margin: 10px;
+     
+    }
+
+    .main_img--container {
+        margin-right: 300px;
+    }
+
+    .main_img--container3 {
     
-        display: grid;
-        grid-template-columns: 1fr ;
-        align-items: center;
-        justify-content: center;
-        margin: 0 auto;
-        height: 90%;
-        z-index: 1;
-        
-        max-width: 1300px;
-        padding: 0 70px;
-        
-      }
-
-
-
-    #img1 {
-        width: 210px;
-        height: 410px;
+        margin:  1rem;
     
     }
 
+    .eu-img {
+        margin-left: 25px;
+    }
 
+    .services_card {
+        width: 10px;
+    }
 
-.main_content {
-    width: 100%;
     
-   
-}
 
-
-
-
-
-.footer_links {
-    margin: 0%;
-    
-    width: 80%;
-}
-
-.main_img--container {
-    margin-right: 300px;
-}
-
-.main_img--container3 {
-    
-    margin:  1rem;
-    
-}
-
-form{
-    width: 90%;
-}
+    form{
+        width: 90%;
+    }
 
 }
 

@@ -253,7 +253,7 @@ span {
 
 .main_content {
     
-    width: 100%;
+    
     margin-bottom: 2rem;
     animation: down 2s;
 }
@@ -485,7 +485,7 @@ span {
     width: 100%;
     align-items: center;
     height: 100%; 
-    padding: 15rem;
+    padding: 10rem;
     transition: ease 0.8s;
     
 }
@@ -510,8 +510,9 @@ span {
 }
 
 .img-project {
-    width: 390px;
+    width: 340px;
     border-radius: 10px;
+    margin-bottom: 30px;
     
     
     
@@ -569,7 +570,7 @@ span {
 .services_card {
     margin: 25px;
     height: 405px;
-    width: 400px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
