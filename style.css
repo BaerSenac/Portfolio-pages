@@ -1,14 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
 
 
-* {
+* , *::after, *::before {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-    text-decoration: none;
-    font-family: 'Ubuntu', sans-serif;
-    
+    padding: 0; 
     
 }
 
@@ -677,7 +673,8 @@ input{
     background: #ffffff;
     border: 1px solid #DCDCDC;
     box-sizing: border-box;
-    
+    margin-left: 10px;
+    margin-right: 10px;
     
 }
 textarea {
@@ -692,7 +689,9 @@ textarea {
     border: 1px solid #DCDCDC;
     box-sizing: border-box;
     height: 100px;
-    width: 100%;
+    width: 99;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 textarea::placeholder{
