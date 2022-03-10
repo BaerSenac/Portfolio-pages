@@ -39,6 +39,10 @@
         margin-left: 150px;
     }
 
+    .main_img--card2 {
+        align-items: center;
+    }
+
     .main_btn1 {
         margin-left: 40px;
         width: 150px;
@@ -50,27 +54,23 @@
     }
 
     .main_img--container {
-        margin-right: 400px;
+        align-items: center;
+        margin-right: 300px;
     }
 
-    .main_img--container3 {
-    
-        margin:  1rem;
-    
+    form {
+        padding: 6px;
     }
 
-    
-
-    
-
-    .services_card {
-        width: 10px;
+    input {
+        width: 300px;
+        margin: 2px;
     }
-
     
-
-    form{
-        width: 90%;
+    textarea {
+        margin-bottom: -70px;
+        margin-left: 1px;
+        margin: 2px;
     }
 
 }
