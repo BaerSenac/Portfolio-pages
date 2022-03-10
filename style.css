@@ -665,7 +665,7 @@ form{
     display: flex;
     flex-direction: column;
     width: 40%;
-    height: 450px;
+    height: 409px;
     background: #ffffff;
     border: 2px solid #DCDCDC;
     box-sizing: border-box;
@@ -701,9 +701,10 @@ textarea {
     border: 1px solid #DCDCDC;
     box-sizing: border-box;
     height: 100px;
-    width: 99;
+    width: 98%;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: -54px;
 }
 
 textarea::placeholder{
