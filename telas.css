@@ -25,7 +25,7 @@
         width: 112%;
     }
 
-
+    
     .main_content {
         margin: auto;
     }
@@ -79,11 +79,10 @@
    /* NAVBAR */
     .navbar_container {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         height: 80px;
         z-index: 1;
         width: 100%;
-        max-width: 1300px;
         padding: 10px;
         
     }
@@ -106,10 +105,11 @@
         top: 100%;
         opacity: 1;
         transition: all o.5s ease;
-        z-index: 99;
+        z-index: 1;
         height: 60vh;
-        font-size: 1.6rem;
-        width: 98%;
+        font-size: 1.3rem;
+        width: 100%;
+        
          
     }
 
@@ -127,9 +127,7 @@
 
     }
 
-    .navbar_item {
-        width: 100%;
-    }
+
 
     .navbar_links {
         text-align: center;
@@ -153,19 +151,22 @@
         color: white;
     }
 
-    .navbar_btn {
-        padding-bottom: 2rem;
 
-    }
 
     .button {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 80%;
+        width: 50%;
         height: 80px;
         margin: 0;
     }
+
+    .main_img--container {
+        margin-left: -54px;
+        margin-top: 26px;
+    }
+
 
     /* TELA SOBRE */
 
@@ -196,7 +197,8 @@
 
    textarea {
        height: 100px;
-       width: 100%;
+       width: 97%;
+       margin-bottom: -70px;
    }
 
     #mobile-menu {
