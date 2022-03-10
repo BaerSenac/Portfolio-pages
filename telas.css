@@ -19,6 +19,62 @@
 
 /*######### REPONSIVO #########*/
 
+@media screen and (max-width:480px) {
+
+    html {
+        width: 112%;
+    }
+
+
+    .main_content {
+        margin: auto;
+    }
+
+    .main_content .baer {
+        font-size: 45px;
+      
+    }
+
+    .sobre-color {
+        margin-left: 150px;
+    }
+
+    .main_btn1 {
+        margin-left: 40px;
+        width: 150px;
+    }
+
+    .footer_links {
+        margin: 10px;
+     
+    }
+
+    .main_img--container {
+        margin-right: 400px;
+    }
+
+    .main_img--container3 {
+    
+        margin:  1rem;
+    
+    }
+
+    
+
+    
+
+    .services_card {
+        width: 10px;
+    }
+
+    
+
+    form{
+        width: 90%;
+    }
+
+}
+
 @media screen and (max-width:960px) {
    /* NAVBAR */
     .navbar_container {
@@ -171,70 +227,7 @@
 
 
 
-@media screen and (max-width:480px) {
 
-    
-
-
-    .navbar_menu.active {
-        background: #000000;
-        top: 100%;
-        opacity: 1;
-        transition: all o.5s ease;
-        z-index: 99;
-        height: 60vh;
-        font-size: 1.6rem;
-    }
-
-    .main_content {
-        margin: auto;
-    }
-
-    
-    .main_content .baer {
-        font-size: 45px;
-      
-    }
-
-    .sobre-color {
-        margin-left: 150px;
-    }
-
-    .main_btn1 {
-        margin-left: 40px;
-        width: 150px;
-    }
-
-    .footer_links {
-        margin: 10px;
-     
-    }
-
-    .main_img--container {
-        margin-right: 300px;
-    }
-
-    .main_img--container3 {
-    
-        margin:  1rem;
-    
-    }
-
-    .eu-img {
-        margin-left: 25px;
-    }
-
-    .services_card {
-        width: 10px;
-    }
-
-    
-
-    form{
-        width: 90%;
-    }
-
-}
 
 
 @media screen and (max-width: 1100px) {

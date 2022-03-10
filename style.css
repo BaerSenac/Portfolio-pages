@@ -4,7 +4,8 @@
 * , *::after, *::before {
     box-sizing: border-box;
     margin: 0;
-    padding: 0; 
+    padding: 0;
+     
     
 }
 
@@ -27,15 +28,16 @@
 
 .navbar {
     background: #F2F1F3;
-    height: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 999;
     transition: ease 0.8s;
+    
 }
 
 .navbar_container {
@@ -227,8 +229,12 @@ span {
 
 
 /*######### TELA INICIO #########*/
+
+.section--1 {
+    background-color: #e9e8eb;
+}
+
 .main {
-    background-color: rgb(255, 255, 255);
     padding: 30vh 0;
     font-family: 'Ubuntu';
     transition: ease 0.8s;
@@ -338,8 +344,7 @@ span {
 }
 
 #img1 {
-    width: 35rem;
-    height: 35rem;
+    width: 30rem;
     margin-bottom: 30px;
     
     
@@ -349,9 +354,13 @@ span {
 
 /*######### TELA SOBRE #########*/
 
-.main2 {
+.section--2 {
     background-color: #5C19C9;
-    padding: 21vh 3vh;
+}
+
+.main2 {
+    
+    padding: 30vh 0vh;
     height: 100%;
     width: 100%;
 }
@@ -473,15 +482,17 @@ span {
 
 
 /*######### TELA PROJETOS #########*/
+.section--3 {
+    background-color: rgb(236, 236, 236); 
+}
+
 .services {
-    
-    background-color: rgb(236, 236, 236);
     display: flex;
     flex-direction: column;
     width: 100%;
     align-items: center;
     height: 100%; 
-    padding: 10rem;
+    padding: 30vh 0vh;
     transition: ease 0.8s;
     
 }
@@ -610,10 +621,11 @@ span {
 
    
 /* TELA CONTATO */
-
-.main3 {
-    padding: 2rem 0;
+.section--contato {
     background-image: url(img/BACKPORT.png);
+}
+.main3 {
+    padding: 4vh 0;
     width: 100%;
     background-size: cover 50%;
     background-repeat: no-repeat;
