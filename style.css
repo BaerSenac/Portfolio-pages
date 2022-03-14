@@ -13,7 +13,7 @@
 /*######### ANIMACOES #########*/
 @keyframes down {
     0% {
-        transform: translateY(-50px);
+        transform: scale(1.073)(-50px);
         opacity: 1%;
     }
     50%{
