@@ -290,7 +290,6 @@ span {
 
 .main_content h1 {
     font-size: 40px;
-    
     background: linear-gradient(96.71deg, #6C60F5 10.53%, rgba(173, 0, 255, 0.35) 122.79%);
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -298,7 +297,7 @@ span {
     -moz-text-fill-color: transparent;
     font-weight: normal;
     margin-bottom: 10px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Montserrat';
     animation: down 1s;
     
 }
