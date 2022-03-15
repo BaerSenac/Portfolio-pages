@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
 
 * , *::after, *::before {
     box-sizing: border-box;
@@ -33,7 +33,7 @@ body {
 /*######### NAVBAR #########*/
 
 .navbar {
-    background: #F2F1F3;
+    background: #f0f0f0;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -156,15 +156,16 @@ span {
     
 }
 .navbar_links:hover {
-    color: #9518fc;
     transition: all 0.3s ease;
+    color: #969696;
+    
 }
 .navbar_links2:hover {
-    color: #9518fc;
+    color: #969696;
     transition: all 0.3s ease;
 }
 .navbar_links3:hover {
-    color: #9518fc;
+    color: #969696;
     transition: all 0.3s ease;
 }
 
@@ -216,19 +217,19 @@ span {
 }
 
 .services_card:hover {
-    transform: scale(1.075);
+    transform: scale(1.055);
     transition: 0.3s ease-in;
     cursor: pointer;
-    box-shadow: -15px 25px 0px rgb(78, 5, 196);
+    box-shadow: -10px 20px 0px rgb(78, 5, 196);
     
     
 }
 
 .services_card:nth-child(2):hover {
-    box-shadow: -15px 25px 0px 0px  rgb(78, 5, 196);
+    box-shadow: -10px 20px 0px 0px  rgb(78, 5, 196);
 }
 .services_card:nth-child(3):hover {
-    box-shadow: -15px 25px 0px rgb(78, 5, 196);
+    box-shadow: -10px 20px 0px rgb(78, 5, 196);
 }
 
 
@@ -238,7 +239,7 @@ span {
 /*######### TELA INICIO #########*/
 
 .section--1 {
-    background-color: #e9e8eb;
+    background-color: #f7f7f8;
 }
 
 .main {
@@ -510,8 +511,9 @@ span {
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
-    margin-bottom: 3rem;
-    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
+    font-size: 2rem;
 
 }
 
@@ -555,8 +557,11 @@ span {
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     font-weight: bold;
+    font-size: 1rem;
 
 }
+
+
 
 .card_btn {
         font-size: 1.7rem;
@@ -651,7 +656,7 @@ span {
 }
 
 .title-contato {
-    font-size: 1.2rem;
+    
     color: #DCDCDC;
     align-items: center;
     padding: 1rem;
@@ -659,6 +664,12 @@ span {
     text-align: center;
     font-weight: 100;
     
+}
+
+.title--contato {
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    font-weight: 400;
 }
 
 .area-login {
@@ -695,6 +706,7 @@ input{
     box-sizing: border-box;
     margin-left: 10px;
     margin-right: 10px;
+    font-family: 'Montserrat';
     
 }
 textarea {
@@ -712,12 +724,14 @@ textarea {
     width: 98%;
     margin-left: 10px;
     margin-right: 10px;
-    margin-bottom: -54px;
+    margin-bottom: -50px;
+    font-family: 'Montserrat';
 }
 
 textarea::placeholder{
     color: #5C19C9;
     font-size: 14px;
+    
     
 }
 

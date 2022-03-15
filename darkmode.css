@@ -45,6 +45,18 @@
 .navbar_links.active {
     color: white;
 }
+.navbar_links.active:hover {
+    color: #6C60F5;
+    transition: all 0.3s ease;
+}
+.navbar_links2.active:hover {
+    color: #6C60F5;
+    transition: all 0.3s ease;
+}
+.navbar_links3.active:hover {
+    color: #6C60F5;
+    transition: all 0.3s ease;
+}
 .navbar_links2.active {
     color: white;
 }
