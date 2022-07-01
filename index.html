@@ -52,12 +52,12 @@
             <div class="main_container">
                         <div class="main_content"> 
                             <h1>Bem vindo</h1>
-                            <h3 class="submain" >Explore meu portfólio, eu sou</h3>
+                            <h3 class="submain" >Conheça um pouco sobre mim e meus projetos</h3>
                             <h2 class="baer ">Jonathan <span>Baer</span></h2>
                             <button class="main_btn" ><a href="#sobre">Explore</a></button>           
                         </div>
                         <div class="main_img--container ">
-                            <div class="main_img--card " ><img class="img1" src="img/learning-animate.svg" alt="livro" id="img1"></div>
+                            <div class="main_img--card " ><lottie-player src="https://assets10.lottiefiles.com/packages/lf20_w51pcehl.json"  background="transparent"  speed="1"  style="width: 500px; height: 500px;"  loop  autoplay></lottie-player></div>
                         </div>
             </div>
         </div>
@@ -70,9 +70,9 @@
                         </div>
                         <div class="main_content2">
                             <h3 class="sobre-color">Sobre</h3>
-                            <p>Olá, eu sou o Jonathan mas pode me chamar de Baer, amo a tecnologia e os desafios que ela me proporciona, e cada vez mais estou dando um passo ao rumo de me tornar um Desenvolvedor.
-                                Atualmente estou fazendo o Técnico de Informática e alguns cursos relacionados a experiencia do usuário.
-                                Gosto de trabalhar trazendo coisas novas e criativas, sempre com o objetivo de ajudar quem precisa.</p>   
+                            <p>Comecei no mercado de TI a 1 ano trabalhando como estagiário em bussiness intelligence e análise de dados na área da Qualidade. 
+                                Concluí o curso técnico em informática no Senac Araraquara , onde tive a oportunidade de aprender hardware, software, redes, desenvolvimento (Web, mobile e desktop). 
+                                Atualmente estou focando meus objetivos no desenvolvimento Front-end.</p>   
                             <button class="main_btn1"><a href="img/JONATHANBAERCurriculo2022(1).pdf">Download CV</a></button>
                             <button class="main_btn2" id="linkedin"><a href="https://www.linkedin.com/in/jonathanbaer/" class="social_icon--link"><i class="fab fa-linkedin"></i></a></button>
                             <button class="main_btn2" ><a href="https://github.com/BaerSenac" class="social_icon--link"><i class="fab fa-github"></i></a></button>
@@ -86,19 +86,47 @@
             <h1 class="title-projetos" data-aos="fade-up">Projetos</h1>
             <div class="services_wrapper" data-aos="fade-up">
                 <div class="services_card" >
-                    <div class="services_btn"><img src="./img/img-confeitaria.jpg" class="img-project"></div>
-                    <a href="https://baersenac.github.io/Confeitaria-pages/"><h2 class="title-cards">Confeitaria Candy</h2></a>
-                    <p class="content-p">Projeto site desenvolvido para uma confeitaria no formato de landing page</p>
+                    <div class="services_btn">
+                        <img src="./img/img-confeitaria.jpg" class="img-project">
+                    </div>
+                    <div class="services_content">
+                        <h2 class="title-cards">Confeitaria Candy</h2>
+                        <p class="content-p">Projeto site desenvolvido para uma confeitaria no formato de landing page</p>
+                        <button href="https://baersenac.github.io/Confeitaria-pages/" class="link-explore">Explorar <i class="fa fa-arrow-right"></i></button>
+                    </div>
+                   
                 </div>
                 <div class="services_card">
-                    <div class="services_btn"><img src="img/img-steakburguer.jpg" class="img-project" id="steak"></div>
-                    <a href="https://baersenac.github.io/github-pages1/"><h2 class="title-cards">SteakBurguer</h2></a> 
-                    <p class="content-p">Minha primeira landing page , recebemos um desafio durante as aulas como o objetivo de desenvolver um site para uma lanchonete.</p>
+                    <div class="services_btn">
+                        <img src="img/img-steakburguer.jpg" class="img-project" id="steak">
+                    </div>
+                    <div class="services_content">
+                        <a href="https://baersenac.github.io/github-pages1/"><h2 class="title-cards">SteakBurguer</h2></a> 
+                        <p class="content-p">Minha primeira landing page , recebemos um desafio durante as aulas como o objetivo de desenvolver um site para uma lanchonete.</p>
+                        <button href="https://baersenac.github.io/github-pages1/" class="link-explore">Explorar <i class="fa fa-arrow-right"></i></button>
+                    </div>
+                    
                 </div>
                 <div class="services_card">
-                    <div class="services_btn"><img src="img/baerdetail-img.jpg" alt="detail" class="img-project"></div>
-                    <a href="https://baersenac.github.io/Baer-Detail/"><h2 class="title-cards">Baer Detail Garage</h2></a> 
-                    <p class="content-p"><span>Projeto em desenvolvimento</span><br>Criação de um site Detail, um <span>projeto real</span> e com o objetivo de dar um identidade visual ao Baer Detail.</p>
+                    <div class="services_btn">
+                        <img src="img/baerdetail-img.jpg" alt="detail" class="img-project"></div>
+                        <div class="services_content">
+                            <h2 class="title-cards">Baer Detail Garage</h2>
+                            <p class="content-p">Criação de um site Detail, um <span>projeto real</span> e com o objetivo de dar um identidade visual ao Baer Detail.</p>
+                            <button href="https://baersenac.github.io/Baer-Detail/" class="link-explore">Explorar <i class="fa fa-arrow-right"></i></button>
+                        </div>
+                    
+                </div> 
+                <div class="services_card">
+                    <div class="services_btn" id="todoList">
+                        <img src="img/todo.jpg" alt="todolist" class="img-project" id="toDoList">
+                    </div>
+                    <div class="services_content">
+                        <a href="https://baersenac.github.io/Baer-Detail/"><h2 class="title-cards">To Do List</h2></a> 
+                        <p class="content-p" id="todoP">Mini-projeto de uma lista de tarefas</p>
+                        <button href="#" class="link-explore">Explorar <i class="fa fa-arrow-right"></i></button>
+                    </div>
+                    
                 </div> 
             </div>
         </div>
@@ -150,5 +178,6 @@
      </script>  
      
     <script src="app.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </body>
 </html>

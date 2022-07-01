@@ -28,22 +28,22 @@
 
 /* NAVBAR DARK MODE */
 .navbar.active {
-    background: #000000;
+    background: #fff;
 }
 
 .navbar_logo.active {
-    color: white;
-    font-weight: normal;
+    color: black;
+    font-weight: lighter;
     transition: ease 0.8s;
 }
 
 .navbar_menu.active{
-    color: white;
+    color: black;
     transition: ease 0.8s;
 }
 
 .navbar_links.active {
-    color: white;
+    color: black;
 }
 .navbar_links.active:hover {
     color: #6C60F5;
@@ -58,16 +58,16 @@
     transition: all 0.3s ease;
 }
 .navbar_links2.active {
-    color: white;
+    color: black;
 }
 .navbar_links3.active {
-    color: white;
+    color: black;
 }
 
 .btnmode {
     width: 60px;
-    height: 30px;
-    border: 3px solid #6C60F5;
+    height: 25px;
+    border: 2px solid #acacac;
 
     border-radius: 60px;
     position: relative;
@@ -80,7 +80,7 @@
     position: absolute;
     width: 18px;
     height: 18px;
-    background: #464646;
+    background: #acacac;
     border-radius: 50%;
     top: 50%;
     left: 3px;
@@ -89,21 +89,21 @@
 }
 
 .btnmode.active::before{
-    left: 32px;
-    background: #ffffff;
+    left: 36px;
+    
 }
 
 /* TELA INICIO DARK MODE */
 .baer.active {
-    color: white;
+    color: black;
 }
 
 .submain.active {
-    color: white;
+    color: black;
 }
 
 .main.active {
-    background: #1b1a1b;
+    background: #fff;
     transition: ease 0.8s;
 }
 
@@ -111,9 +111,9 @@
 /* TELA PROJETOS */
 
 .services.active {
-    background-color: #1b1a1b;
+    background-color: #fff;
 }
 
 .services.active {
-    background-color: #1b1a1b;
+    background-color: #fff;
 }
