@@ -56,8 +56,8 @@ body {
 span {
   background: linear-gradient(
     96.71deg,
-    #6c60f5 10.53%,
-    rgba(173, 0, 255, 0.35) 122.79%
+    #6c60f5 2.53%,
+    rgba(173, 0, 255, 0.35) 60.79%, #F03554 90.50%
   );
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -151,8 +151,8 @@ span {
   background: #833ab4;
   background: linear-gradient(
     96.71deg,
-    #6c60f5 10.53%,
-    rgba(173, 0, 255, 0.35) 122.79%
+    #6c60f5 2.53%,
+    rgba(173, 0, 255, 0.35) 60.79%, #F03554 90.50%
   );
   color: white;
   transition: all 0.3s ease;
@@ -166,16 +166,19 @@ span {
 
 /* TELA INICIO */
 .main_btn:hover {
-  background-color: #5c19c9;
-  transform: scale(1.074);
+    background: linear-gradient(
+        96.71deg,
+        #1e1925 6.53%,
+        #6c60f5 60.79%, #F03554 90.50%
+      );
 }
 
 /* TELA SOBRE */
 .main_btn1:hover {
   color: white;
-  background: #380688;
+  background: #1e1925;
   transition: all 0.4s ease-out;
-  transform: scale(1.074);
+  transform: scale(1.014);
 }
 .main_btn1 a:hover {
   color: white;
@@ -200,17 +203,7 @@ span {
 }
 
 /* TELA PROJETOS */
-.title-cards:hover {
-  background: linear-gradient(
-    96.71deg,
-    #888888 10.53%,
-    rgb(97, 96, 97) 122.79%
-  );
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
+
 
 .services_card:hover {
   transform: scale(1.025);
@@ -283,8 +276,8 @@ span {
   font-size: 40px;
   background: linear-gradient(
     96.71deg,
-    #6c60f5 10.53%,
-    rgba(173, 0, 255, 0.35) 122.79%
+    #6c60f5 2.53%,
+    rgba(173, 0, 255, 0.35) 60.79%, #F03554 90.50%
   );
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -308,15 +301,13 @@ span {
   background: #833ab4;
   background: linear-gradient(
     96.71deg,
-    #6c60f5 10.53%,
-    rgba(173, 0, 255, 0.35) 122.79%
+    #1e1925 6.53%,
+    #6c60f5 60.79%, #F03554 90.50%
   );
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   color: white;
   position: fixed;
   border: none;
   border-radius: 10px;
-  color: white;
   margin-top: 3rem;
   cursor: pointer;
   position: relative;
@@ -396,13 +387,7 @@ span {
 
 .main_btn2 {
   font-size: 1.6rem;
-  background: linear-gradient(
-    79.18deg,
-    #7a2ff5 -22.61%,
-    #decbfd 16.98%,
-    #ffffff 78.89%,
-    #7420fe 152.11%
-  );
+background-color: #1e1925;
 
   padding: 10px 15px;
   border: none;
@@ -418,13 +403,7 @@ span {
 .main_btn1 {
   font-size: 1.7rem;
 
-  background: linear-gradient(
-    79.18deg,
-    #7a2ff5 -22.61%,
-    #decbfd 16.98%,
-    #ffffff 78.89%,
-    #7420fe 152.11%
-  );
+  background-color: #e7e7e7;
 
   color: white;
   position: fixed;
