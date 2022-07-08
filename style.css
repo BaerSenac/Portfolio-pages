@@ -251,6 +251,7 @@ span {
   font-weight: lighter;
   margin-bottom: 2rem;
   animation: down 2s;
+  margin-left: 30%;
 }
 
 .main_img--card {
@@ -343,7 +344,7 @@ span {
 /*######### TELA SOBRE #########*/
 
 .section--2 {
-  background-color: #4f16ab;
+  background-color: #16121b;
 }
 
 .main2 {
@@ -403,7 +404,7 @@ background-color: #1e1925;
 .main_btn1 {
   font-size: 1.7rem;
 
-  background-color: #e7e7e7;
+  background-color: #1e1925;
 
   color: white;
   position: fixed;
@@ -425,7 +426,7 @@ background-color: #1e1925;
 .main_btn2 a {
   position: relative;
   z-index: 2;
-  color: #7a2ff5;
+  color: #481c8f;
   font-weight: 400;
   text-decoration: none;
 }
@@ -433,7 +434,7 @@ background-color: #1e1925;
 .main_btn1 a {
   position: relative;
   z-index: 2;
-  color: #7a2ff5;
+  color: #481c8f;
   font-weight: 400;
   text-decoration: none;
 }
@@ -616,7 +617,7 @@ background-color: #1e1925;
 
 /* TELA CONTATO */
 .section--contato {
-  background-image: url(img/BACKPORT.png);
+  background: #1e1925;
 }
 .main3 {
   padding: 4vh 0;
@@ -631,19 +632,19 @@ background-color: #1e1925;
 }
 
 .title-contato {
-  color: #dcdcdc;
+  color: #a3a1a1;
   align-items: center;
   padding: 1rem;
   margin-bottom: 200px;
   text-align: center;
-  font-weight: 100;
+  
 }
 
 .title--contato {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: lighter;
   font-size: 2rem;
-  font-weight: 400;
+  
 }
 
 .area-login {
@@ -735,7 +736,7 @@ form [type="submit"]:hover {
 
 /* RODAPE */
 .footer_container {
-  background-color: #2c2a30;
+  background-color: #16121b;
   padding: 2rem 0;
   display: flex;
   flex-direction: column;
