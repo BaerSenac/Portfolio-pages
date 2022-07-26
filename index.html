@@ -1,183 +1,313 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="text/css" rel="stylesheet" href="reset.css" media="screen">
-    <link rel="stylesheet" href="style.css" >
-    <link rel="stylesheet" href="telas.css">
-    <link rel="stylesheet" href="darkmode.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link type="text/css" rel="stylesheet" href="reset.css" media="screen" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="telas.css" />
+    <link rel="stylesheet" href="darkmode.css" />
     <title>Portfólio - Baer</title>
-    <link rel="shortcut icon" href="img/Group 15.svg" >
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/Group 15.svg" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-</head>
-<body>
-    
-    <nav class="navbar"> <!-- NAVBAR -->
-        <div class="navbar_container">
-            <a class="navbar_logo" href="#home" id="">Port<span>fólio</span></a>
-            <div class="navbar_toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <ul class="navbar_menu">
-                <li class="navbar_item">
-                    <a href="#home" class="navbar_links" id="home-page">Home</a>
-                </li>
-                <li class="navbar_item">
-                    <a href="#sobre" class="navbar_links2" id="sobre-page">Sobre</a>
-                </li>
-                <li class="navbar_item">
-                    <a href="#review" class="navbar_links3" id="review-page">Projetos</a>
-                </li>
-                
-                <li class="navbar_btn">
-                    <a href="#contato" class="button" id="contato-pages">Contato</a>
-                </li>
-                <li class="navbar_btn">
-                    <div class="container">
-                        <div class="btnmode">
+  </head>
+  <body>
+    <nav class="navbar">
+      <!-- NAVBAR -->
+      <div class="navbar_container">
+        <a class="navbar_logo" href="#home" id="">Port<span>fólio</span></a>
+        <div class="navbar_toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar_menu">
+          <li class="navbar_item">
+            <a href="#home" class="navbar_links" id="home-page">Home</a>
+          </li>
+          <li class="navbar_item">
+            <a href="#sobre" class="navbar_links2" id="sobre-page">Sobre</a>
+          </li>
+          <li class="navbar_item">
+            <a href="#review" class="navbar_links3" id="review-page"
+              >Projetos</a
+            >
+          </li>
 
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </div>
+          <li class="navbar_btn">
+            <a href="#contato" class="button" id="contato-pages">Contato</a>
+          </li>
+          <li class="navbar_btn">
+            <div class="container">
+              <div class="btnmode"></div>
+            </div>
+          </li>
+        </ul>
+      </div>
     </nav>
-    <section class="section--1 rellax" data-rellax-speed="-2"> <!-- TELA INICIO -->
-         
-        <div class="main" id="home">
-            <div class="main_container">
-                        <div class="main_content"> 
-                            <h1>Bem vindo</h1>
-                            <h3 class="submain" >Conheça um pouco sobre mim e meus projetos</h3>
-                            <h2 class="baer ">Jonathan <span>Baer</span></h2>
-                            <button class="main_btn" ><a href="#sobre">Explore</a></button>           
-                        </div>
-                        <div class="main_img--container ">
-                            <div class="main_img--card " ><lottie-player src="https://assets10.lottiefiles.com/packages/lf20_w51pcehl.json"  background="transparent"  speed="1"  style="width: 500px; height: 500px;"  loop  autoplay></lottie-player></div>
-                        </div>
+    <section class="section--1 rellax" data-rellax-speed="-2">
+      <!-- TELA INICIO -->
+
+      <div class="main" id="home">
+        <div class="main_container">
+          <div class="main_content">
+            <h1>Bem vindo</h1>
+            <h3 class="submain">Conheça um pouco sobre mim e meus projetos</h3>
+            <h2 class="baer">Jonathan <span>Baer</span></h2>
+            <button class="main_btn"><a href="#sobre">Explore</a></button>
+          </div>
+          <div class="main_img--container">
+            <div class="main_img--card">
+              <lottie-player
+                src="https://assets10.lottiefiles.com/packages/lf20_w51pcehl.json"
+                background="transparent"
+                speed="1"
+                style="width: 500px; height: 500px"
+                loop
+                autoplay
+              ></lottie-player>
             </div>
+          </div>
         </div>
+      </div>
     </section>
-    <section class="section--2 rellax" data-rellax-speed="0"> <!-- TELA SOBRE -->
-        <div class="main2" id="sobre">
-            <div class="main_container2" data-aos="fade-up">
-                <div class="main_img--container2">
-                    <div class="main_img--card2"><img class="eu-img" src="img/eu.png" alt=""></div>
-                        </div>
-                        <div class="main_content2">
-                            <h3 class="sobre-color">Sobre</h3>
-                            <p>Comecei no mercado de TI a 1 ano trabalhando como estagiário em bussiness intelligence e análise de dados na área da Qualidade. 
-                                Concluí o curso técnico em informática no Senac Araraquara , onde tive a oportunidade de aprender hardware, software, redes, desenvolvimento (Web, mobile e desktop). 
-                                Atualmente estou focando meus objetivos no desenvolvimento Front-end.</p>   
-                            <button class="main_btn1"><a href="img/JONATHANBAERCurriculo2022(1).pdf">Download CV</a></button>
-                            <button class="main_btn2" id="linkedin"><a href="https://www.linkedin.com/in/jonathanbaer/" class="social_icon--link"><i class="fab fa-linkedin"></i></a></button>
-                            <button class="main_btn2" ><a href="https://github.com/BaerSenac" class="social_icon--link"><i class="fab fa-github"></i></a></button>
-                            <button class="main_btn2"><a href="https://www.instagram.com/j_silvabaer/" class="social_icon--link"><i class="fab fa-instagram"></i></a></button>       
-                </div>
+    <section class="section--2 rellax" data-rellax-speed="0">
+      <!-- TELA SOBRE -->
+      <div class="main2" id="sobre">
+        <div class="main_container2" data-aos="fade-up">
+          <div class="main_img--container2">
+            <div class="main_img--card2">
+              <img class="eu-img" src="img/eu.png" alt="" />
             </div>
+          </div>
+          <div class="main_content2">
+            <h3 class="sobre-color">Sobre</h3>
+            <p>
+              Comecei no mercado de TI a 1 ano trabalhando como estagiário em
+              bussiness intelligence e análise de dados na área da Qualidade.
+              Concluí o curso técnico em informática no Senac Araraquara , onde
+              tive a oportunidade de aprender hardware, software, redes,
+              desenvolvimento (Web, mobile e desktop). Atualmente estou focando
+              meus objetivos no desenvolvimento Front-end.
+            </p>
+            <button class="main_btn1" onclick="location.href='img/JONATHANBAERCurriculo2022(1).pdf'">
+              <a href="img/JONATHANBAERCurriculo2022(1).pdf">Download CV</a>
+            </button>
+            <button class="main_btn2" id="linkedin" onclick="location.href='https://www.linkedin.com/in/jonathanbaer/'">
+              <a
+                href="https://www.linkedin.com/in/jonathanbaer/"
+                class="social_icon--link"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </button>
+            <button class="main_btn2" onclick="location.href='https://github.com/BaerSenac'">
+              <a href="https://github.com/BaerSenac" class="social_icon--link"
+                ><i class="fab fa-github"></i
+              ></a>
+            </button>
+            <button class="main_btn2" onclick="location.href='https://www.instagram.com/j_silvabaer/'" >
+              <a
+                href="https://www.instagram.com/j_silvabaer/"
+                class="social_icon--link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </button>
+          </div>
         </div>
+      </div>
     </section>
-    <section class="section--3"> <!-- TELA PROJETOS -->
-        <div class="services"  id="review">
-            <h1 class="title-projetos" data-aos="fade-up">Projetos</h1>
-            <div class="services_wrapper" data-aos="fade-up">
-                <div class="services_card" >
-                    <div class="services_btn">
-                        <img src="./img/img-confeitaria.jpg" class="img-project">
-                    </div>
-                    <div class="services_content">
-                        <h2 class="title-cards">Confeitaria Candy</h2>
-                        <p class="content-p">Projeto site desenvolvido para uma confeitaria no formato de landing page</p>
-                        <button onclick="location.href='https://baersenac.github.io/Confeitaria-pages/'" class="link-explore">Explorar <i class="fa fa-arrow-right"></i></button>
-                    </div>
-                   
-                </div>
-                <div class="services_card">
-                    <div class="services_btn">
-                        <img src="img/img-steakburguer.jpg" class="img-project" id="steak">
-                    </div>
-                    <div class="services_content">
-                        <a href="https://baersenac.github.io/github-pages1/"><h2 class="title-cards">SteakBurguer</h2></a> 
-                        <p class="content-p">Minha primeira landing page , recebemos um desafio durante as aulas como o objetivo de desenvolver um site para uma lanchonete.</p>
-                        <button onclick="location.href='https://baersenac.github.io/github-pages1/'" class="link-explore">Explorar <i class="fa fa-arrow-right"></i></button>
-                    </div>
-                    
-                </div>
-                <div class="services_card">
-                    <div class="services_btn">
-                        <img src="img/baerdetail-img.jpg" alt="detail" class="img-project"></div>
-                        <div class="services_content">
-                            <h2 class="title-cards">Baer Detail Garage</h2>
-                            <p class="content-p">Criação de um site Detail, um <span>projeto real</span> e com o objetivo de dar um identidade visual ao Baer Detail.</p>
-                            <button  class="link-explore"  onclick="location.href='https://baersenac.github.io/Baer-Detail/'">Explorar <i class="fa fa-arrow-right"></i></button>
-                        </div>
-                    
-                </div> 
-                <div class="services_card">
-                    <div class="services_btn" id="todoList">
-                        <img src="img/todo.jpg" alt="todolist" class="img-project" id="toDoList">
-                    </div>
-                    <div class="services_content">
-                        <a href="https://baersenac.github.io/Lista_de_Tarefas/"><h2 class="title-cards">To Do List</h2></a> 
-                        <p class="content-p" id="todoP">Mini-projeto de uma lista de tarefas</p>
-                        <button onclick="location.href='https://baersenac.github.io/Lista_de_Tarefas/'" class="link-explore">Explorar <i class="fa fa-arrow-right"></i></button>
-                    </div>
-                    
-                </div> 
+    <section class="section--3">
+      <!-- TELA PROJETOS -->
+      <div class="services" id="review">
+        <h1 class="title-projetos" data-aos="fade-up">Projetos</h1>
+        <div class="services_wrapper" data-aos="fade-up">
+          <div class="services_card">
+            <div class="services_btn">
+              <img src="./img/img-confeitaria.jpg" class="img-project" />
             </div>
-        </div>
-    </section> 
-    <section class="section--contato"> <!-- TELA CONTATO -->
-        <div class="main3" data-aos="fade-up" id="contato" > 
-            <div class="title-contato">
-                <h1 class="title--contato">Contato</h1>
-                
-            </div>       
-                <div class="main_img--container3">             
-                        <div class="area-login">
-                            <form action="https://formsubmit.co/jonathanbaeremails@gmail.com" method="POST">
-                            <input  type="text" name="nome" placeholder="Nome" >
-                            <input type="email" name="email" placeholder="Email" >
-                            <input type="text" name="telefone" placeholder="Telefone" >
-                            <input type="hidden" name="_next" value="https://baersenac.github.io/obrigado.html">
-                            <textarea type="text" name="mensagem" cols="200" rows="100" placeholder="Mensagem"></textarea>
-                            
-                            <input type="submit" value="Enviar">
-                            </form>
-                        </div>   
-                </div>
-        </div>
-    </section>    
-    <div class="footer_container"> <!-- RODAPE -->
-        <div class="footer_links" >
-            <div class="footer_link--wrapper">
+            <div class="services_content">
+              <h2 class="title-cards">Confeitaria Candy</h2>
+              <p class="content-p">
+                Projeto site desenvolvido para uma confeitaria no formato de
+                landing page
+              </p>
+              <button
+                onclick="location.href='https://baersenac.github.io/Confeitaria-pages/'"
+                class="link-explore"
+              >
+                Explorar <i class="fa fa-arrow-right"></i>
+              </button>
             </div>
-            <div class="footer_logo" >
-                <a href="#home" id="navbar_logo_cabecalho">Port<span>fólio</span></a>
+          </div>
+          <div class="services_card">
+            <div class="services_btn">
+              <img
+                src="img/img-steakburguer.jpg"
+                class="img-project"
+                id="steak"
+              />
             </div>
-            <section class="social_media">
-                <div class="social_media--wrap">
-                    <p class="web_site_rights">© Portfólio - Baer 2022.  All rights reserved</p>                  
-                </div>
-            </section>
+            <div class="services_content">
+              <a href="https://baersenac.github.io/github-pages1/"
+                ><h2 class="title-cards">SteakBurguer</h2></a
+              >
+              <p class="content-p">
+                Minha primeira landing page , recebemos um desafio durante as
+                aulas como o objetivo de desenvolver um site para uma
+                lanchonete.
+              </p>
+              <button
+                onclick="location.href='https://baersenac.github.io/github-pages1/'"
+                class="link-explore"
+              >
+                Explorar <i class="fa fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="services_card">
+            <div class="services_btn">
+              <img
+                src="img/baerdetail-img.jpg"
+                alt="detail"
+                class="img-project"
+              />
+            </div>
+            <div class="services_content">
+              <h2 class="title-cards">Baer Detail Garage</h2>
+              <p class="content-p">
+                Criação de um site Detail, um <span>projeto real</span> e com o
+                objetivo de dar um identidade visual ao Baer Detail.
+              </p>
+              <button
+                class="link-explore"
+                onclick="location.href='https://baersenac.github.io/Baer-Detail/'"
+              >
+                Explorar <i class="fa fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="services_card">
+            <div class="services_btn" id="todoList">
+              <img
+                src="img/todo.jpg"
+                alt="todolist"
+                class="img-project"
+                id="toDoList"
+              />
+            </div>
+            <div class="services_content">
+              <a href="https://baersenac.github.io/Lista_de_Tarefas/"
+                ><h2 class="title-cards">To Do List</h2></a
+              >
+              <p class="content-p" id="todoP">
+                Mini-projeto de uma lista de tarefas
+              </p>
+              <button
+                onclick="location.href='https://baersenac.github.io/Lista_de_Tarefas/'"
+                class="link-explore"
+              >
+                Explorar <i class="fa fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="services_card">
+            <div class="services_btn" id="marioJump">
+              <img
+                src="img/mario.jpg"
+                alt="mario Jump"
+                class="img-project"
+                id="marioJump"
+              />
+            </div>
+            <div class="services_content">
+              <a href="https://lnkd.in/d8mDbqnS"
+                ><h2 class="title-cards">Mario Jump</h2></a
+              >
+              <p class="content-p" id="todoP">
+                Game do Mario , projeto mais focado em CSS & JS
+              </p>
+              <button
+                onclick="location.href='https://lnkd.in/d8mDbqnS'"
+                class="link-explore"
+              >
+                Explorar <i class="fa fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
         </div>
+      </div>
+    </section>
+    <section class="section--contato">
+      <!-- TELA CONTATO -->
+      <div class="main3" data-aos="fade-up" id="contato">
+        <div class="title-contato">
+          <h1 class="title--contato">Contato</h1>
         </div>
-        
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
-     <script src="https://kit.fontawesome.com/a334785636.js" crossorigin="anonymous"></script> 
-     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-     <script>
-       AOS.init({
-           duration: 1000,
-           easing: 'ease',
-       });
-     </script>  
-     
+        <div class="main_img--container3">
+          <div class="area-login">
+            <form
+              action="https://formsubmit.co/jonathanbaeremails@gmail.com"
+              method="POST"
+            >
+              <input type="text" name="nome" placeholder="Nome" />
+              <input type="email" name="email" placeholder="Email" />
+              <input type="text" name="telefone" placeholder="Telefone" />
+              <input
+                type="hidden"
+                name="_next"
+                value="https://baersenac.github.io/obrigado.html"
+              />
+              <textarea
+                type="text"
+                name="mensagem"
+                cols="200"
+                rows="100"
+                placeholder="Mensagem"
+              ></textarea>
+
+              <input type="submit" value="Enviar" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="footer_container">
+      <!-- RODAPE -->
+      <div class="footer_links">
+        <div class="footer_link--wrapper"></div>
+        <div class="footer_logo">
+          <a href="#home" id="navbar_logo_cabecalho">Port<span>fólio</span></a>
+        </div>
+        <section class="social_media">
+          <div class="social_media--wrap">
+            <p class="web_site_rights">
+              © Portfólio - Baer 2022. All rights reserved
+            </p>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/a334785636.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        easing: "ease",
+      });
+    </script>
+
     <script src="app.js"></script>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-</body>
+  </body>
 </html>

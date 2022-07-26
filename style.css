@@ -404,7 +404,7 @@ background-color: #1e1925;
 .main_btn1 {
   font-size: 1.7rem;
 
-  background-color: #1e1925;
+  background-color: #fff;
 
   color: white;
   position: fixed;
@@ -426,7 +426,7 @@ background-color: #1e1925;
 .main_btn2 a {
   position: relative;
   z-index: 2;
-  color: #481c8f;
+  color: #fff;
   font-weight: 400;
   text-decoration: none;
 }
@@ -613,6 +613,10 @@ background-color: #1e1925;
   width: 340px;
   height: 50px;
   margin-bottom: 10px;
+}
+
+#marioJump {
+  width: 290px;
 }
 
 /* TELA CONTATO */
